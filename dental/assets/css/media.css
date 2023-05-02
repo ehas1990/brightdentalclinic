@@ -1,0 +1,13 @@
+
+.flex
+{
+    list-style-type: none;
+    padding: 5px 15px 15px 5px;
+}
+
+.flex .icon
+{
+    width: 35px;
+    height: 35px;
+
+}
