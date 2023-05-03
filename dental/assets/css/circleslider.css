@@ -43,4 +43,5 @@
     padding: 10px 20px 10px 20px;
     animation: fa-spin 2s infinite linear;
     -webkit-animation: fa-spin 2s infinite linear;
+    height: 350px;
   }
