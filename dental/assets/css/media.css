@@ -26,6 +26,57 @@
   {
       width: 90% !important;
   }
+  #header-block
+  {
+    width: 40% !important;
+    margin-top: -50px !important;
+}
+.header-main
+{
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+.form
+{
+  display: none;
+}
+  
+  .round {
+    position: absolute;
+    left: -75px !important;
+    top: 45px;
+    width: 292px !important;
+    height: 292px !important;
+    border: 2px dotted #3DACB7;
+    border-radius: 100%;
+    -webkit-animation: rotation 100s infinite linear;
+}
+  #holderCircle 
+  { 
+    width: 150px !important;
+     height: 200px !important;
+      margin: 80px auto !important;
+     }
+	.holderCircle::after 
+  { width: 30% !important; 
+    height: 40% !important;
+   }
+	.dotCircle 
+  { width: 30% !important; height: 100%; top: 0; right: 0; bottom: 0; left: 0; margin: auto;
+}
+.dotCircle .itemDot {
+  font-size: 40px;
+  display: none !important; 
+}
+.contentCircle {
+  width: 250px;
+  border-radius: 100%;
+  color: #222222;
+  position: relative;
+  top: 94px !important;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 }
 @media only screen 
   and (min-device-width: 320px) 
@@ -41,22 +92,112 @@
   {
       width: 90% !important;
   }
+  #header-block
+  {
+    width: 34%;
+    margin-top: -55px !important;
+  }
   
+  .round {
+    position: absolute;
+    left: -75px !important;
+    top: 45px;
+    width: 292px !important;
+    height: 292px !important;
+    border: 2px dotted #3DACB7;
+    border-radius: 100%;
+    -webkit-animation: rotation 100s infinite linear;
+}
+  #holderCircle 
+  { 
+    width: 150px !important;
+     height: 200px !important;
+      margin: 80px auto !important;
+     }
+	.holderCircle::after 
+  { width: 30% !important; 
+    height: 40% !important;
+   }
+	.dotCircle 
+  { width: 30% !important; height: 100%; top: 0; right: 0; bottom: 0; left: 0; margin: auto;
+}
+.dotCircle .itemDot {
+  font-size: 40px;
+  display: none !important; 
+}
+.contentCircle {
+  width: 250px;
+  border-radius: 100%;
+  color: #222222;
+  position: relative;
+  top: 94px !important;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.form
+{
+  display: none !important;
+}
 }
 @media only screen 
   and (min-device-width:480px) 
   and (max-device-width:620px)
 {
-  #desktop-logo
+  #header-block
   {
+    width: 34%;
+    margin-top: -55px !important;
+  }
+  .form {
+    margin-top: 84px !important;
+    background: #ffff;
+    margin-left: -12px !important; 
+    width: 492px;
+}
+.ls-layers
+{
+  position: absolute !important;
+    overflow: revert !important;
+    transform: translateZ(0);
+}
+#vs-about-wrapper
+{
+  margin-top: 629px !important;
+}
+.round {
+  position: absolute;
+  left: -75px !important;
+  top: 45px;
+  width: 292px !important;
+  height: 292px !important;
+  border: 2px dotted #3DACB7;
+  border-radius: 100%;
+  -webkit-animation: rotation 100s infinite linear;
+}
+#holderCircle 
+{ 
+  width: 150px !important;
+   height: 200px !important;
+    margin: 80px auto !important;
+   }
+.holderCircle::after 
+{ width: 30% !important; 
+  height: 40% !important;
+ }
+.dotCircle 
+{ width: 30% !important; height: 100%; top: 0; right: 0; bottom: 0; left: 0; margin: auto;
+ display: none !important;
+}
 
-  width: 40% !important;
-  }
-  #mobile-logo
-  {
-      width: 90% !important;
-  }
-  
+.contentCircle {
+width: 250px;
+border-radius: 100%;
+color: #222222;
+position: relative;
+top: 94px !important;
+left: 50%;
+transform: translate(-50%, -50%);
+}
 }
 @media only screen 
   and (min-device-width:620px) 
@@ -71,6 +212,15 @@
     {
         width: 90% !important;
     }
+    .form
+    {
+      display: none !important;
+    }
+    .dotCircle 
+{ width: 30% !important; height: 100%; top: 0; right: 0; bottom: 0; left: 0; margin: auto;
+ display: none !important;
+}
+
   }
 @media only screen 
   and (min-device-width:720px) 
@@ -85,7 +235,10 @@
     {
         width: 90% !important;
     }
-
+  .form
+  {
+    display: none !important;
+  }
 }
 @media only screen 
   and (min-device-width:820px) 
@@ -94,16 +247,45 @@
     #desktop-logo
     {
   
-    width: 40% !important;
+    width: 50% !important;
     }
     #mobile-logo
     {
         width: 90% !important;
     }
 
+    .form {
+      
+      margin-left: 0px !important;
+      margin-top: -210px !important;
+      
+  }
 
-
-
+  .form-box1 {
+    padding: 8px !important;
+}
+#vs-hero-carousel
+{
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 951px;
+  height: 480px !important;
+  visibility: visible;
+}
+ .ls-bg-outer, .ls-bg
+{
+  height: 485px !important;
+}
+.menu-style1
+{
+  width: 461px !important;
+    margin-left: -189px !important;
+}
+#sideMenuToggler
+{
+  margin-left: -50px !important;
+}
 }
 
 
